@@ -1,0 +1,2 @@
+module college1 {
+}
