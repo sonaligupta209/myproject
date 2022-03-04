@@ -18,7 +18,7 @@ class GFG {
 	
 
 	{
-		CAPACITY = 25;
+		CAPACIT
 	}
 	
 	
