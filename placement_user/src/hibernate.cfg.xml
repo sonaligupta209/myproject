@@ -1,0 +1,14 @@
+<!DOCTYPE bibernate-configuration PUBLIC
+"-///Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configration-3.0.dtd">
+ <hibernate-configuration>	
+<session-factory>	<!-- Connection setting -->
+	<property name="connection.driver-class">com.mysql.jdbc.Driver</property>	
+	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>	
+	<property name="connection.url">jdbc:mysql://localhost:3306/userdetail</property>	
+	<property name="connection.username">root</property>	
+	<property name="connection.password">Sonali@123</property>	
+	<property name="show_sql">true</property>	
+	<property name="current_session_context_class">thread</property>			
+	</session-factory>
+	</hibernate-configuration>
