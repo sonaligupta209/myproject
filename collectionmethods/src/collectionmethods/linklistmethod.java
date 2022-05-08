@@ -24,9 +24,9 @@ public class linklistmethod
 
   llist.add("java");
 
-  System.out.println("LinkedList:" + llist);
+ /* System.out.println("LinkedList:" + llist);
 
-//Using Add method at specific index
+//Using Add method at specific index */
 
   llist.add(1,"Element");
   Collection collection = new ArrayList();
@@ -37,8 +37,8 @@ public class linklistmethod
   collection.add("Android");
 
   llist.addAll(collection);
-  System.out.println("Element to be removed:" + llist.remove(3));
-  llist.sort(null);
+ /* System.out.println("Element to be removed:" + llist.remove(3));*/
+ /* llist.sort(null);*/
 
 
   System.out.println("Linked List:" + llist);
